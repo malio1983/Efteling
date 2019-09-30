@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Efteling</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <nav class="nav-bar">
+      <div class="container">
+        <img
+          class="logo"
+          src="data:image/jpeg;base64,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"
+          alt="logo"
+        />
+        <div class="sub-menu">
+          <div><a href="#">Contact & klantservice</a></div>
+          <div><a href="">Inloggen</a></div>
+          <div>
+            <a href="">NL <i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+        <div class="main-menu">
+          <a class="ontdek" href="">Ontdek het park</a>
+          <a href="">Plan je bezoek</a>
+          <a href="">Kom overnachten</a>
+          <a href="#" alt=""><i class="fa fa-search fa-2x"></i></a>
+          <a href="#" alt=""><i class="fas fa-shopping-cart fa-2x"></i></a>
+          <a class="btn" href="#">Tickets</a>
+        </div>
+      </div>
+    </nav>
+    <div class="video">
+      <video
+        autoplay
+        muted
+        src="https://player.vimeo.com/external/334623777.hd.mp4?s=fdd75bd3fce197cd72457d73db087eda52bcc1fd&profile_id=175"
+      ></video>
+      <h1>Zomer in de Efteling</h1>
+      <div class="arrow">
+        <div class="arrow-back">
+          <span><i class="fas fa-chevron-down fa-2x"></i></span>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="container">
+        <h1>Geniet eindeloos van de lange zomerdagen</h1>
+        <div class="vlinder">
+          <img
+            src="data:image/jpeg;base64,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"
+            alt=""
+          />
+        </div>
+        <h2>
+          Tijdens de zomermaanden komt de Wereld van de Efteling nóg meer tot
+          leven. In het zonovergoten park vind je volop verkoeling in de leukste
+          waterattracties, geniet je van spectaculaire parkshows en bewonder je
+          de natuur op haar mooist.
+        </h2>
+        <div><a class="btn" href="#">Bestel Ticket met korting</a></div>
+      </div>
+    </section>
+    <!-- start photo's section -->
+    <div class="photo">
+      <div class="container">
+        <img
+          class="photo-item1"
+          src="https://www.efteling.com/nl/-/media/images/nieuw-park/park/seizoenen/zomer/1024x576-zomer-gondoletta-baron.jpg?h=270&w=500&hash=8A18AE94AFE86F70CEC81BF4D450CB1D"
+          alt=""
+        />
+        <img
+          class="photo-item2"
+          src="https://www.efteling.com/nl/-/media/images/nieuw-park/park/seizoenen/zomer/1024x576-zomer-sprookjesboom.jpg?h=270&w=500&hash=0E885CC30317C3D36416C8235B37BCB3"
+          alt=""
+        />
+        <img
+          class="photo-item3"
+          src="https://www.efteling.com/nl/-/media/images/nieuw-park/park/seizoenen/zomer/1024x576-raveleijn-show-zomer.jpg?h=170&w=315&hash=1BD3FFC551F152F8933ECF5D744D6B76"
+          alt=""
+        />
+        <img
+          class="photo-item4"
+          src="https://www.efteling.com/nl/-/media/images/nieuw-park/park/seizoenen/zomer/1024x576-vliegende-hollander-water-zomer.jpg?h=170&w=315&hash=1646A2187A5209A4424DC8AD4D64B011"
+          alt=""
+        />
+        <div class="photo-item5">
+          <img
+            src="https://www.efteling.com/nl/-/media/images/nieuw-park/park/seizoenen/zomer/1024x576-zomer-aquanura.jpg?h=170&w=315&hash=4EED3A563F525D38BE04E867464653E6"
+            alt=""
+          />
+          <a class="photo-btn" href="">Bekijk alle foto's &nbsp;&nbsp;&gt;</a>
+        </div>
+      </div>
+    </div>
+    <!-- end photo's section -->
+
+    <!-- start square section -->
+    <div class="bg-full square">
+      <div class="dark-front">
+      <div class="arrow">
+        <div class="arrow-back">
+          <span><i class="fas fa-chevron-down fa-2x"></i></span>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="bg-full-content">
+          <h1>Negen Pleinen Festijn</h1>
+          <h2>__________</h2>
+          <p>
+            Laat je deze zomer verwonderen tijdens het Negen Pleinen Festijn.
+            Elke vrijdag- en zaterdag in juli en augustus kun je op de negen
+            pleinen terecht voor sprookjesachtige optredens, wonderlijke
+            ontmoetingen en zomerse lekkernijen.
+          </p>
+          <a href="" class="bg-full-btn">Meer Negen Pleinen Festijn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- end square section -->
+    <!-- start info -->
+    <div class="info">
+      <div class="container">
+        <div class="text">
+          <h1>Beleef een dag vol verkoeling en verwondering</h1>
+          <p>
+            Voel de frisse wind tijdens een ritje op hoge snelheid in de
+            vernieuwde Python of laat je verwonderen door de spectaculaire shows
+            Aquanura en Raveleijn. Trek in een snack? Strijk neer en ga heerlijk
+            picknicken of terrassen in het zonnetje!
+          </p>
+        </div>
+        <div class="info-items">
+          <div>
+            <img
+              src="https://www.efteling.com/nl/-/media/images/nieuw-park/park/seizoenen/zomer/600x450-zomer-pirana-water.jpg?h=235&amp;w=313&amp;hash=37A738FE0A85978E54376E4BA3B76971"
+              alt=""
+            />
+            <h2>Vind volop verkoeling</h2>
+            <p>
+              Ga op avontuur door de woeste rivier van de Piraña of stap aan
+              boord van het spookschip De Vliegende Hollander. Of dobber je
+              liever rustig op het water in de Gondoletta?
+            </p>
+            <div class="back-btn"><a href="">Bekijk alle attracties</a></div>
+          </div>
+          <div>
+            <img
+              src="https://www.efteling.com/nl/-/media/images/nieuw-park/park/seizoenen/zomer/600x450-zomer-aquanura-schemering-roze.jpg?h=235&amp;w=313&amp;hash=D5B0D1C76DD29EB526FBBE79211F5052&quot"
+              alt=""
+            />
+            <h2>Sprookjesachtige shows</h2>
+            <p>
+              Ontmoet Efteling-bewoners of bewonder de spectaculaire watershow
+              Aquanura, waar honderden fonteinen dansen op muziek en licht in
+              het donker.
+            </p>
+            <div class="back-btn"><a href="">Bekijk alle shows</a></div>
+          </div>
+          <div>
+            <img
+              src="https://www.efteling.com/nl/-/media/images/nieuw-park/park/seizoenen/zomer/600x450-zomer-terras-octopus.jpg?h=235&amp;w=313&amp;hash=A13AD40F8B298282FBDA7618538B2DAD"
+              alt=""
+            />
+            <h2>Picknick of terrasje?</h2>
+            <p>
+              Neem plaats op een terrasje en geniet van een verse sandwich,
+              frisse smoothie of je favoriete ijsje. Of strijk neer op een van
+              de grasvelden en ga gezellig samen picknicken in het zonnetje.
+            </p>
+            <div class="back-btn"><a href="">Bekijk alle retaurants</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end info -->
+    <!-- start holiday -->
+    <div class="bg-full holiday">
+      <div class="dark-front">
+      <div class="arrow">
+        <div class="arrow-back">
+          <span><i class="fas fa-chevron-down fa-2x"></i></span>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="bg-full-content">
+          <h1>Negen Pleinen Festijn</h1>
+          <h2>__________</h2>
+          <p>
+            Laat je deze zomer verwonderen tijdens het Negen Pleinen Festijn.
+            Elke vrijdag- en zaterdag in juli en augustus kun je op de negen
+            pleinen terecht voor sprookjesachtige optredens, wonderlijke
+            ontmoetingen en zomerse lekkernijen.
+          </p>
+          <a href="" class="bg-full-btn">Meer Negen Pleinen Festijn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--  start moments -->
+    <div class="moments">
+      <div class="container">
+        <h1>Deel jouw Efteling-momenten</h1>
+
+        <div class="moments-content">
+          <div class="moments-item">
+            <img
+              src="https://scontent-lht6-1.cdninstagram.com/vp/4e8e6b3efc19127994ab73b06559139b/5DDCAE4B/t51.2885-15/e35/67195611_2206407286318043_915272785997793821_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com"
+              alt=""
+            />
+            <img
+              class="img-float"
+              src="https://scontent-lht6-1.cdninstagram.com/vp/0243c70983283519012b7ce84d94942e/5DC85458/t51.2885-19/s150x150/66649011_323769615166629_8966542424302157824_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com"
+              alt=""
+            />
+            <i class="fab fa-instagram fa-2x"></i>
+          </div>
+          <div class="moments-item">
+            <img
+              src="https://scontent-lht6-1.cdninstagram.com/vp/fd3f3d242f02309567f2944e64747e73/5DCE8A2C/t51.2885-15/e35/67232665_170079370704080_1520621841401451989_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com"
+              alt=""
+            />
+            <img
+              class="img-float"
+              src="https://scontent-lht6-1.cdninstagram.com/vp/90e7d5fe3a40e35cf4a7380f761f7568/5DE8D2E2/t51.2885-19/s150x150/13391220_264779380548082_647996670_a.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com"
+              alt=""
+            />
+            <i class="fab fa-instagram fa-2x"></i>
+          </div>
+          <div class="moments-item">
+            <img
+              src="https://scontent-lht6-1.cdninstagram.com/vp/ac084b138831908b29d076183970f2a8/5DCF6FAE/t51.2885-15/e35/66296083_2457611617861645_611704807995298658_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com"
+              alt=""
+            />
+            <img
+              class="img-float"
+              src="https://scontent-lht6-1.cdninstagram.com/vp/ff3dee4e968264680dffee78c2c44bc1/5DCF1196/t51.2885-19/s150x150/26067861_1936465493337885_8792278421234253824_n.jpg?_nc_ht=scontent-lht6-1.cdninstagram.com"
+              alt=""
+            />
+            <i class="fab fa-instagram fa-2x"></i>
+          </div>
+        </div>
+        <div class="moments-btn"><a href="" class="btn">Bekijk meer</a></div>
+      </div>
+    </div>
+    <!-- end moments -->
+    <!-- start footer -->
+    <footer>
+      <div class="container">
+        <div class="contact">
+          <h4>Vragen?<br />We helpen je graag</h4>
+          <div><a href=""
+            ><i class="fab fa-facebook-messenger"></i> &nbsp; Facebook
+            Messenger</a><h6><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Antwoord binnen 1 uur</em></h6>
+            </div>
+          <a href=""><i class="fas fa-phone-alt"></i> &nbsp; +31(0)777777777</a>
+          <a href=""
+            ><i class="fas fa-question-circle"></i> &nbsp; Veelgestelde
+            Vragen</a
+          >
+        </div>
+        <div class="links">
+          <div>
+            <h2>Het park</h2>
+            <a href="">Attracties</a>
+            <a href="">Openingstijden&drukte</a>
+            <a href="">Attracties in onderhoud</a>
+            <a href="">Prijsinformatie</a>
+            <a href="">Abonnementen</a>
+            <a href="">Groepen en schoolreizen</a>
+            <a href="">Kom overnachten</a>
+          </div>
+          <div>
+            <h2>Over de Efteling</h2>
+            <a href="">Geschiedenis</a>
+            <a href="">Organisatie</a>
+            <a href="">Over onze sporookjes</a>
+            <a href="">Werken bij de Efteling</a>
+            <a href="">Vacatures</a>
+            <a href="">Adres & route</a>
+            <a href="">Pers</a>
+          </div>
+          <div>
+            <h2>Meer Efteling</h2>
+            <a href="">Efteling Theater</a>
+            <a href="">Meetings & Events</a>
+            <a href="">Efteling Kids Website</a>
+            <a href="">Efteling Golfpark</a>
+            <a href="">Efteling-aPPS</a>
+            <a href="">Efteling Blog</a>
+            <a href="">Efteling Kids Radio</a>
+          </div>
+          <div>
+            <h2>Nieuwsbrief</h2>
+            <p>
+              Kom alles te weten over de Efteling. Ontvang 1 a 2 keer per maand
+              het laatste Efteling-nieuws, unieke kijkjes achter de schermen,
+              aanbiedingen en meer.
+            </p>
+            <input type="text" placeholder="E-mail">
+            <a class="btn" href="">Mis niets!</a>
+          </div>
+        </div>
+        <div class="socialmedia">
+          <img src="https://www.efteling.com/nl/-/media/images/nieuw-footer/awards/awards-2018/travellers-choice.png?h=64&w=64&la=nl&hash=9A58A9D0E90ED0617DA0B756CE7F52DF" alt="">
+          <img src="https://www.efteling.com/nl/-/media/images/nieuw-footer/awards/awards-2018/zoover-award.png?h=64&w=64&la=nl&hash=B9794F99DBEDD93545429D6BB7261C60" alt="">
+          <div class="icons">
+            <a href=""><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href=""><i class="fab fa-twitter-square fa-2x"></i></a>
+            <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+            <a href=""><i class="fab fa-youtube-square fa-2x"></i></a>
+            <a href=""><i class="fab fa-linkedin fa-2x"></i></a>            
+          </div>
+        </div>
+        <div class="copyright">
+          <h5>© Efteling 2019</h5>
+          <a href="">Privacy statement</a>
+          <a href="">Algemene voorwaarden</a>
+          <a href="">Contact & klantenservice</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
